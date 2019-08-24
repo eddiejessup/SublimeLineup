@@ -1,0 +1,88 @@
+[
+    {
+        "caption": "Preferences: Lineup File Settings – Default",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/Terminal/Base File.sublime-settings"
+        }
+    },
+    {
+        "caption": "Preferences: Lineup File Settings – User",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/User/Base File.sublime-settings"
+        }
+    },
+    {
+        "caption": "Preferences: Lineup File Settings – Syntax Specific – User",
+        "command": "open_file_settings"
+    },
+    {
+        "caption": "Preferences: Lineup Key Bindings – Default",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/Lineup/Default (Windows).sublime-keymap",
+            "platform": "Windows"
+        }
+    },
+    {
+        "caption": "Preferences: Lineup Key Bindings – Default",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/Lineup/Default (OSX).sublime-keymap",
+            "platform": "OSX"
+        }
+    },
+    {
+        "caption": "Preferences: Lineup Key Bindings – Default",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/Lineup/Default (Linux).sublime-keymap",
+            "platform": "Linux"
+        }
+    },
+    {
+        "caption": "Preferences: Lineup Key Bindings – User",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/User/Default (Windows).sublime-keymap",
+            "platform": "Windows"
+        }
+    },
+    {
+        "caption": "Preferences: Lineup Key Bindings – User",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/User/Default (OSX).sublime-keymap",
+            "platform": "OSX"
+        }
+    },
+    {
+        "caption": "Preferences: Lineup Key Bindings – User",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/User/Default (Linux).sublime-keymap",
+            "platform": "Linux"
+        }
+    },
+    {
+        "caption": "Lineup: Align selection on hand-chosen match",
+        "command": "lineup_manual_match",
+        "args": {}
+    },
+    {
+        "caption": "Lineup: Align selection on auto-chosen match",
+        "command": "lineup_match_align",
+        "args": {}
+    },
+    {
+        "caption": "Lineup: Left-align selection (left-biased)",
+        "command": "lineup_left_align",
+        "args": {"mode": "min"}
+    },
+    {
+        "caption": "Lineup: Left-align selection (right-biased)",
+        "command": "lineup_left_align",
+        "args": {"mode": "max"}
+    }
+]

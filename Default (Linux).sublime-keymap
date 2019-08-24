@@ -1,0 +1,5 @@
+[
+    { "keys": ["ctrl+alt+a"], "command": "lineup_match_align" },
+    { "keys": ["ctrl+alt+w"], "command": "lineup_left_align", "args": {"mode": "min"} },
+	{ "keys": ["ctrl+alt+e"], "command": "lineup_left_align", "args": {"mode": "max"} }
+]

@@ -1,0 +1,72 @@
+{
+    "alignments": {
+        "{ , }": {
+            "matches": [",", "{", "}"],
+            "pre_space_policy": "one",
+            "add_post_space": true,
+            "bias_left": true,
+        },
+        "( , ), left": {
+            "matches": [",", "(", ")"],
+            "pre_space_policy": "keep",
+            "add_post_space": true,
+            "bias_left": true,
+        },
+        "( , ), right": {
+            "matches": [",", "(", ")"],
+            "pre_space_policy": "keep",
+            "add_post_space": true,
+            "bias_left": false,
+        },
+        "[ , ]": {
+            "matches": [",", "[", "]"],
+            "pre_space_policy": "one",
+            "add_post_space": true,
+            "bias_left": true,
+        },
+        ":: and ->": {
+            "matches": ["->", "::"],
+            "pre_space_policy": "one",
+            "add_post_space": true,
+            "bias_left": true,
+        },
+        "->": {
+            "matches": ["->"],
+            "pre_space_policy": "one",
+            "add_post_space": true,
+            "multi_match_policy": "skip"
+        },
+        "|": {
+            "matches": ["|"],
+            "pre_space_policy": "one",
+            "add_post_space": true,
+            "multi_match_policy": "first"
+        },
+        "=": {
+            "matches": ["="],
+            "pre_space_policy": "one",
+            "add_post_space": true,
+            "prefixes": [
+                "+",
+                "-",
+                "&",
+                "|",
+                "~",
+                "%",
+                "/",
+                "*",
+                "."
+            ]
+        },
+        "::": {
+            "matches": ["::"],
+            "pre_space_policy": "one",
+            "add_post_space": true,
+        },
+        "--": {
+            "matches": ["--"],
+            "pre_space_policy": "two",
+            "add_post_space": true,
+        },
+    }
+}
